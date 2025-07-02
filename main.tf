@@ -3,7 +3,7 @@ provider "aws" {
 }
  
 resource "aws_s3_bucket" "static_website_bucket" {
-  bucket = "2397925"
+  bucket = "s3-bucket-2397925"
  
   website {
     index_document = "index.html"
